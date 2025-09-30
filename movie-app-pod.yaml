@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: movie-app
+spec:
+  containers:
+  - name: movie-app
+    image: s4sachin/flaskapp 
+    ports:
+    - containerPort: 5000
+
